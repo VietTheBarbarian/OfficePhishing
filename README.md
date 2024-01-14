@@ -1,4 +1,5 @@
 Basic phishing to auto download our payload than auto execute using vba
+
 phish.vba
 
 Remember to pretext our victim
@@ -6,6 +7,7 @@ Remember to pretext our victim
 
 Intermediate rce via phishing by running executed shellcode in memory by using three Win32 APIs from Kernel32.dll:  
 VirtualAlloc_, RtlMoveMemory, and _CreateThread
+
 runner.vba
 
 Will exit when you close office 
